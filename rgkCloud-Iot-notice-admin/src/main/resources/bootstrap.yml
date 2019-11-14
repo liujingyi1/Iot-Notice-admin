@@ -1,0 +1,19 @@
+spring: 
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: rgkCloud-Iot-notice-admin
+  cloud: 
+    config: 
+#      profile: dev
+#      uri:
+#      - http://192.168.160.33:8763
+      
+      profile: test
+      uri:
+      - http://192.168.160.36:8763
+      label: master
+#      discovery:
+#        enabled: true
+#        service-id: micro-service-config
+      
